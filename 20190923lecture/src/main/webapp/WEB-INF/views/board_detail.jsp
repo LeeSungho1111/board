@@ -21,6 +21,13 @@
 			});
 		});
 	</script>
+	
+	<style>
+	body{background-color: white !important;}
+	td, a{color: #6e6e6e !important;}
+	h3, h4, legend{color: skyblue !important;}
+	input{border: black !important; background-color: #dcdcdc !important;}
+	</style>
 
 </head>
 <body  class="jumbotron">
@@ -45,7 +52,7 @@
 		<input class="form-control" type="text" name="content" id="content"/>
 		<input type="hidden" name="board_id" id="${board_detail.board_id}" value="${board_detail.board_id}"/>
 		<input type="hidden" name="id" id="${member.id}" value="${member.id}"/>
-		<input class="btn btn-primary" type="submit" value="comment wirte"/>
+		<input class="btn btn-primary" type="submit" value="comment wirte" style="background-color: skyblue !important"/>
 	</form>
 	<hr>
 	<c:forEach var="row" items="${list}">
