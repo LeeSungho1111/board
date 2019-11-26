@@ -98,6 +98,13 @@
 	    return new Blob([u8arr], {type:mime});
 	}
 	</script>
+	
+	<style>
+	body{background-color: white !important;}
+	td, a{color: #6e6e6e !important;}
+	h3, legend{color: skyblue !important;}
+	input{border: black !important; background-color: #dcdcdc !important;}
+	</style>
 </head>
 <body  class="jumbotron">
 	<%@ include file="header.jsp"%>

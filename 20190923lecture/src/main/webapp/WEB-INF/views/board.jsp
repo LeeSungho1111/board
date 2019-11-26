@@ -24,10 +24,15 @@
 		    } );
 		} );
 	</script>
+	<style>
+	body{background-color: white !important;}
+	td, a{color: #6e6e6e !important;}
+	h2{color: skyblue !important;}
+	</style>
 </head>
 <body class="jumbotron">
+<h2> Board </h2>
 	<%@ include file="header.jsp"%>
-	<h2> Board </h2>
 	
 	<table class="table table-hover" id="board">
 	  <thead>
